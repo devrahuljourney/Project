@@ -1,0 +1,23 @@
+.box:hover{
+    box-shadow: 5px 10px 18px #888888;
+    background: url(wave-blue.3362585e.svg);
+    background-repeat: no-repeat;
+   background-position: bottom;
+    
+}
+.core-feature {
+    background-clip: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.moveimage{
+    animation: 10s infinite moveimg ;
+}
+@keyframes moveimg {
+    0%{
+       top: 0;
+    }
+    100%{
+       top: -100%;
+    }
+}
